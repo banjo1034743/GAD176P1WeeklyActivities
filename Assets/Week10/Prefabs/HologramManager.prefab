@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8690159329823269178}
   - component: {fileID: 3040324022496277610}
+  - component: {fileID: 5909910187100245917}
   m_Layer: 0
   m_Name: HologramManager
   m_TagString: Untagged
@@ -44,17 +45,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b360954111c9e14a977c753ef15a170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnSpacebarPressed:
-    m_PersistentCalls:
-      m_Calls: []
-  Holograms:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+--- !u!114 &5909910187100245917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3505388327863016479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c56d6800d49b8c642a3a4315963dad48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
